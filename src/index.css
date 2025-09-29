@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .match-card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .match-card-live {
+    @apply ring-2 ring-red-500 ring-opacity-50 animate-pulse-slow;
+  }
+  
+  .player-name {
+    @apply font-semibold text-gray-900 dark:text-white truncate;
+  }
+  
+  .score-display {
+    @apply text-2xl font-bold text-center;
+  }
+  
+  .status-scheduled {
+    @apply bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-sm;
+  }
+  
+  .status-live {
+    @apply bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm animate-bounce-slow;
+  }
+  
+  .status-finished {
+    @apply bg-green-100 text-green-800 px-2 py-1 rounded-full text-sm;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+#root {
+  min-height: 100vh;
+}
