@@ -1,3 +1,5 @@
+Vídeo explicativo: https://youtu.be/wpw-ar5cPGQ
+
 # AceWatch Frontend 🎾
 
 Interface moderna e responsiva do AceWatch desenvolvida com React 18 e Tailwind CSS. Dashboard completo para acompanhar partidas de tênis em tempo real, gerenciar favoritos e configurar alertas.
